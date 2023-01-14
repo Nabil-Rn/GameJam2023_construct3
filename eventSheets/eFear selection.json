@@ -1,0 +1,148 @@
+{
+	"name": "eFear selection",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "fearCounter",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 485726011641185
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Fear1",
+					"sid": 751894055852801
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 526048695875957,
+					"parameters": {
+						"variable": "fearCounter",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 711208033139959
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Fear2",
+					"sid": 703110434992433
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 638584877467940,
+					"parameters": {
+						"variable": "fearCounter",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 274355287646038
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Fear3",
+					"sid": 964674389131790
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 399315506404047,
+					"parameters": {
+						"variable": "fearCounter",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 776701059097438
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Fear4",
+					"sid": 610847817370267
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 447135588808176,
+					"parameters": {
+						"variable": "fearCounter",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 848006609046544
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Fear5",
+					"sid": 605306117202147
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 772612429343441,
+					"parameters": {
+						"variable": "fearCounter",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 770714833414669
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Fear6",
+					"sid": 547601602116849
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 985633369186502,
+					"parameters": {
+						"variable": "fearCounter",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 153774924773034
+		}
+	],
+	"sid": 656134036645568
+}
