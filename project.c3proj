@@ -5,10 +5,30 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		}
+	],
 	"uniqueId": "yar319mkzqk",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"Sprite",
+			"PLACEHOLDER"
+		],
 		"subfolders": []
 	},
 	"autosaveData": null,
@@ -26,8 +46,8 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1",
-			"sheet 2"
+			"eMainMenu",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
@@ -150,9 +170,9 @@
 			0
 		],
 		"splashColor": [
-			1,
-			1,
-			1,
+			0,
+			0,
+			0,
 			0
 		],
 		"useThemeColor": false,
